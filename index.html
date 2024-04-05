@@ -1,41 +1,227 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <title>PopPalace</title>
   </head>
   <body>
-
     <div class="navbar">
-        <div class="navbar-container">
-            <div class="logo-container">
-                <h1>PopPalace</h1>
-            </div>
-            <input class="searchbar"></input>
-           
-            <div class="Links">
-            
-                <a href="">Watchlist</a>
-            
-           
-                <a href="">Triva</a>
-            
-            
-               <div class="signIn">
-                <a href="">Sign In</a>
-               </div> 
-            
-
+      <div class="navbar-container">
+        <div class="logo-container">
+          <h1 class="logo">PopPalace</h1>
         </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item">Home</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trivia</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fas fa-moon toggle-icon"></i>
+            <i class="fas fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+    <div class="sidebar">
+      <i class="leftIcons fas fa-search"></i>
+      <i class="leftIcons fas fa-home"></i>
+    </div>
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+           style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #1e1e1e), url('img/f-1.jpg');" -->
+        >
+          <img class="featured-title" src="img/f-t-1.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Recusandae, mollitia. Unde esse tempora voluptas, exercitationem
+            consequatur explicabo quasi laudantium ut vero quod! Animi id, harum
+            officiis eius reprehenderit dolores voluptas.
+          </p>
+          <button class="NR-button"><strong>TRAILER</strong></button>
+        </div>
+        <div class="movie-list-con">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/2.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/3.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/4.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/5.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/6.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/7.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-con">
+          <h1 class="movie-list-title">POPULAR</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/2.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/3.jpg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque animi autem atque.
+                </p>
+                <button class="movie-list-button">TRAILER</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #1e1e1e),
+              url('img/f-2.jpg');
+          "
+        >
+          <img class="featured-title" src="img/f-t-2.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Recusandae, mollitia. Unde esse tempora voluptas, exercitationem
+            consequatur explicabo quasi laudantium ut vero quod! Animi id, harum
+            officiis eius reprehenderit dolores voluptas.
+          </p>
+          <button class="NR-button"><strong>TRAILER</strong></button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>
